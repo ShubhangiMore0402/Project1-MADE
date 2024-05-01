@@ -37,7 +37,7 @@ block AirportstopsTableInterpreter oftype TableInterpreter {
 
 
 block AirportstopsLoader oftype SQLiteLoader {
-    table: "airport";
-    file: "airport.sqlite";
+    table: "airports";
+    file: "airports.sqlite";
 }
 }
