@@ -2,7 +2,7 @@ Project Plan
 
 Title
 
-        Emission Insights: Analyzing Greenhouse Gas Impact in Electricity Consumption
+Emission Insights: Analyzing Greenhouse Gas Impact in Electricity Consumption
 
 Main Question:
 
