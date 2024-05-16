@@ -6,11 +6,11 @@ Emission Insights: Analyzing Greenhouse Gas Impact in Electricity Consumption
 
 Main Question:
 
- What is the relationship between electricity consumption and greenhouse gas emissions, measured in grams of CO₂ equivalent per            kilowatt-hour (gCO₂eq/kWh), and how can this understanding inform strategies for reducing emissions in the context of climate             change?
+ What is the relationship between electricity consumption and greenhouse gas emissions, measured in grams of CO₂ equivalent per kilowatt-hour (gCO₂eq/kWh), and how can this understanding inform strategies for reducing emissions in the context of climate change?
 
 Project Overview:
 
- The project aims to analyze and visualize greenhouse gas emissions associated with electricity consumption. It will utilize open          datasets to explore the amount of greenhouse gases emitted per unit of electricity consumed, considering both direct and life-            cycle analysis emission factors. The project will be self-organized and will use static datasets that are licensed under an open          data license.
+ The project aims to analyze and visualize greenhouse gas emissions associated with electricity consumption. It will utilize open datasets to explore the amount of greenhouse gases emitted per unit of electricity consumed, considering both direct and life-cycle analysis emission factors. The project will be self-organized and will use static datasets that are licensed under an open data license.
 
 Datasources
        
