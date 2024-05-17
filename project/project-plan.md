@@ -19,7 +19,7 @@ Datasources
      Data Type: CSV
 
      Datasource2: Great Britain electricity emissions data
-     Metadata URL: https://www.electricitymaps.com/data-portal/great-britain#
+     Metadata URL: https://raw.githubusercontent.com/ShubhangiMore0402/Testing/main/GB_2021_hourly.csv?token=GHSAT0AAAAAACQ6YSXXFUMRXHR3D4ROQ7BMZSHNJIQ
      Data Type: CSV
 
 
