@@ -13,14 +13,14 @@ Project Overview:
  The project aims to analyze and visualize greenhouse gas emissions associated with electricity consumption. It will utilize open datasets to explore the amount of greenhouse gases emitted per unit of electricity consumed, considering both direct and life-cycle analysis emission factors. The project will be self-organized and will use static datasets that are licensed under an open data license.
 
 Datasources
-       
-        Datasource1: Germany electricity emissions data 
-        Metadata URL: https://www.electricitymaps.com/data-portal/germany# 
-        Data Type: CSV
+           
+     Datasource1: Germany electricity emissions data
+     Metadata URL: https://raw.githubusercontent.com/ShubhangiMore0402/Testing/main/DE_2021_hourly.csv?token=GHSAT0AAAAAACQ6YSXW3DNHARUSK523BS6KZSHNCJQ 
+     Data Type: CSV
 
-        Datasource2: Great Britain electricity emissions data
-        Metadata URL: https://www.electricitymaps.com/data-portal/great-britain#
-        Data Type: CSV
+     Datasource2: Great Britain electricity emissions data
+     Metadata URL: https://www.electricitymaps.com/data-portal/great-britain#
+     Data Type: CSV
 
 
 Work Packages:
