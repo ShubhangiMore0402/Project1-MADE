@@ -1,41 +1,55 @@
 Project Plan
+### Project Overview
 
-Title
+**Title**: **Global Trends in Fossil CO2 Emissions and Air Travel Emission Intensities**
 
-Emission Insights: Analyzing Greenhouse Gas Impact in Electricity Consumption
+**Main Question**:
 
-Main Question:
+1. How have global fossil CO2 emissions evolved from 1991 to 2016?
+2. What are the trends in air travel emission intensities between 2019 to 2022 period?
+3. How do these emissions correlate with economic indicators such as GDP?
+4. What is the relationship between tourism activities and emission intensities?
 
- What is the relationship between electricity consumption and greenhouse gas emissions, measured in grams of CO₂ equivalent per kilowatt-hour (gCO₂eq/kWh), and how can this understanding inform strategies for reducing emissions in the context of climate change?
+**Objective**: 
+The project aims to analyze and understand the trends in fossil CO2 emissions and air travel emission intensities globally from 1970 to 2016. By examining the relationship between these emissions and economic activities, specifically GDP and tourism, we aim to provide insights into how different factors influence environmental impacts over time.
 
-Project Overview:
+**Datasets**:
+1. **Emissions Database for Global Atmospheric Research (EDGAR), version v4.3.2_FT_2016**:
+   - Publisher: Joint Research Centre
+   - Content: Fossil CO2 and GHG time-series data from 1970 to 2016.
+   - URL: [EDGAR Dataset](https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/EDGAR/datasets/v432_FT2016/EDGARv432_FT2016_CO2_per_GDP_emissions_1970-2016.csv)
 
- The project aims to analyze and visualize greenhouse gas emissions associated with electricity consumption. It will utilize open datasets to explore the amount of greenhouse gases emitted per unit of electricity consumed, considering both direct and life-cycle analysis emission factors. The project will be self-organized and will use static datasets that are licensed under an open data license.
+2. **UDP - Air Travel Emission Intensity**:
+   - Publisher: Joint Research Centre
+   - Content: Air travel emission intensity data.
+   - URL: [UDP Dataset](https://urban.jrc.ec.europa.eu/api/udp/v2/en/data/?databrick_id=739&nutslevel=0&ts=TOURISM&nutsversion=-1&mpx=1&nutslevel=9&format=csv)
 
-Datasources
-           
-     Datasource1: Germany electricity emissions data
-     Metadata URL: https://raw.githubusercontent.com/ShubhangiMore0402/Testing/main/DE_2021_hourly.csv?token=GHSAT0AAAAAACQ6YSXW3DNHARUSK523BS6KZSHNCJQ 
-     Data Type: CSV
+**Methodology**:
+1. **Data Collection and Exploration**:
+   - Download and load the datasets.
+   - Conduct initial exploratory data analysis to understand data structure, identify missing values, and check for errors.
 
-     Datasource2: Great Britain electricity emissions data
-     Metadata URL: https://raw.githubusercontent.com/ShubhangiMore0402/Testing/main/GB_2021_hourly.csv?token=GHSAT0AAAAAACQ6YSXXFUMRXHR3D4ROQ7BMZSHNJIQ
-     Data Type: CSV
+2. **Data Cleaning and Preprocessing**:
+   - Handle missing values and correct data errors.
+   - Standardize data formats for consistency.
 
+3. **Data Analysis and Feature Extraction**:
+   - Perform detailed analysis to identify trends and patterns.
+   - Calculate relevant metrics, such as emissions per GDP and per capita.
+   - Create visualizations to illustrate key findings.
 
-Work Packages:
+4. **Modeling and Interpretation**:
+   - Apply statistical or machine learning models to analyze relationships.
+   - Interpret the results in the context of economic and tourism activities.
 
-        Data Acquisition and Exploration
-        Data Preprocessing
-        Analysis of Greenhouse Gas Emissions
-        Visualization and Interpretation
-        Comparative Analysis
-        Documentation and Reporting
+5. **Reporting and Presentation**:
+   - Compile findings into a comprehensive report.
+   - Develop visual presentations to convey insights effectively.
 
-Deliverables:
+**Expected Outcomes**:
+- Detailed trends and patterns of fossil CO2 emissions and air travel emission intensities from 1991 to 2016.
+- Insights into the impact of economic growth and tourism on emissions.
+- Recommendations for policymakers on mitigating emissions while supporting economic activities.
 
-        Cleaned and preprocessed datasets.
-        Analysis of greenhouse gas emissions per unit of electricity consumed.
-        Visualizations illustrating emissions trends.
-        Comparative analysis report.
-        Documentation detailing the project methodology and findings.
+**Significance**:
+Understanding the historical trends and correlations between emissions and economic activities can help inform future policies aimed at reducing greenhouse gas emissions while maintaining economic development. This project will provide valuable insights for researchers, policymakers, and stakeholders interested in sustainable development and environmental protection.
