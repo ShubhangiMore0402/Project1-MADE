@@ -11,7 +11,7 @@ Project Plan
 4. What is the relationship between tourism activities and emission intensities?
 
 **Objective**: 
-The project aims to analyze and understand the trends in fossil CO2 emissions and air travel emission intensities globally from 1970 to 2016. By examining the relationship between these emissions and economic activities, specifically GDP and tourism, we aim to provide insights into how different factors influence environmental impacts over time.
+The project aims to analyze and understand the trends in fossil CO2 emissions and air travel emission intensities globally from 1991 to 2016. By examining the relationship between these emissions and economic activities, specifically GDP and tourism, we aim to provide insights into how different factors influence environmental impacts over time.
 
 **Datasets**:
 1. **Emissions Database for Global Atmospheric Research (EDGAR), version v4.3.2_FT_2016**:
