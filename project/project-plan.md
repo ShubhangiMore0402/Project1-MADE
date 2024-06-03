@@ -7,8 +7,6 @@ Project Plan
 
 1. How have global fossil CO2 emissions evolved from 1991 to 2016?
 2. What are the trends in air travel emission intensities between 2019 to 2022 period?
-3. How do these emissions correlate with economic indicators such as GDP?
-4. What is the relationship between tourism activities and emission intensities?
 
 **Objective**: 
 The project aims to analyze and understand the trends in fossil CO2 emissions from 1991 to 2016 and air travel emission intensities globally from 2019 to 2022. By examining the relationship between these emissions and economic activities, specifically GDP and tourism, we aim to provide insights into how different factors influence environmental impacts over time.
