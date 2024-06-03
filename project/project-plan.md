@@ -18,11 +18,17 @@ The project aims to analyze and understand the trends in fossil CO2 emissions fr
    - Publisher: Joint Research Centre
    - Content: Fossil CO2 and GHG time-series data from 1970 to 2016.
    - URL: [EDGAR Dataset](https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/EDGAR/datasets/v432_FT2016/EDGARv432_FT2016_CO2_per_GDP_emissions_1970-2016.csv)
+   - The dataset is structured in CSV format, with columns representing different regions, years, and emission values. The data quality is high, with comprehensive coverage and consistent formatting.
+   - **License**: The dataset is available under the European Union Open Data License, which permits use, sharing, and adaptation. Obligations include attributing the source and indicating any changes made.
+
 
 2. **UDP - Air Travel Emission Intensity**:
    - Publisher: Joint Research Centre
    - Content: Air travel emission intensity data.
    - URL: [UDP Dataset](https://urban.jrc.ec.europa.eu/api/udp/v2/en/data/?databrick_id=739&nutslevel=0&ts=TOURISM&nutsversion=-1&mpx=1&nutslevel=9&format=csv)
+   - **Data Structure and Quality**: The dataset is also structured in CSV format, detailing air travel emission intensities by year and region. It is well-organized, although some regions may have        missing or incomplete data.
+   - **License**: This dataset is covered under the same European Union Open Data License, allowing use and adaptation with proper attribution.
+
 
 **Methodology**:
 1. **Data Collection and Exploration**:
