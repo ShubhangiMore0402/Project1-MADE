@@ -41,12 +41,23 @@ def transpose_data(df):
 
 def transform_df_data(df):
 
-    data_col_del = ['1970', '1971', '1972','1973','1974','1975','1976','1977','1978','1979','1980','1981','1982','1983','1984','1985','1986','1987','1988','1989','1990', 'LEVEL_ID','TERRITORY_ID','DATE']
-		
+    data_col_del = [
+    '1970', '1971', '1972', '1973', '1974', '1975', '1976', '1977', '1978', '1979', 
+    '1980', '1981', '1982', '1983', '1984', '1985', '1986', '1987', '1988', '1989', 
+    '1990', '1991', '1992', '1993', '1994', '1995', '1996', '1997', '1998', '1999', 
+    '2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', 
+    '2010', '2011', '2012', 'LEVEL_ID', 'TERRITORY_ID', 'DATE'
+     ]
+    data_col_rename = {
+        2019: 'Year_2019',
+        2020: 'Year_2020',
+        2021: 'Year_2021',
+        2022: 'Year_2022'
+    }	
      # Dropping unnecessary columns
     df = drop_columns(df, data_col_del)
     df = transpose_data(df)
-
+    df = rename_columns(df, data_col_rename)
     return df
 
 def get_source_data(path, delimiter):
@@ -96,14 +107,13 @@ if __name__ == '__main__':
             'delimiter' : ',',
             'target_table' : 'europe_data'
         },
-        'target_db_path' : './data',        
+        'target_db_path' : '../data',        
         'target_db_name' : 'made-project_new'
     }
 
     world_df = get_source_data(src_tgt_details['world_data']['source'], src_tgt_details['world_data']['delimiter'])
     europe_df = get_source_data(src_tgt_details['europe_data']['source'], src_tgt_details['europe_data']['delimiter'])
     
-  
     world_df = transform_df_data(world_df)
     europe_df = transform_df_data(europe_df)
 
