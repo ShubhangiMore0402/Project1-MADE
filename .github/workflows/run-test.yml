@@ -15,20 +15,19 @@ jobs:
         - name: Checkout repository
           uses: actions/checkout@v3
 
-        
         - name: Set up Python 3.11
           uses: actions/setup-python@v4
           with:
             python-version: 3.11
         
-        - name: Make the script files executable
+        - name: Make the pipeline script executable
           run: chmod +x ./project/pipeline.sh
             
-        - name: Run Tests
+        - name: Run pipeline script
           run: ./project/pipeline.sh
 
-        - name: Make the script files executable
+        - name: Make the test script executable
           run: chmod +x ./project/tests.sh
             
-        - name: Run Tests
+        - name: Run test script
           run: ./project/tests.sh
