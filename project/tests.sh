@@ -1,1 +1,1 @@
-python3 automated_testing_pipeline.py
+python3 ./project/automated_testing_pipeline.py
