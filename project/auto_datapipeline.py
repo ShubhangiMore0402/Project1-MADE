@@ -12,6 +12,7 @@ def drop_columns(df, col_list):
     # Dropping the specified columns from the DataFrame
     df.drop(existing_cols, axis=1, inplace=True)
 
+    
     return df
 
 def rename_columns(df, col_dict):
