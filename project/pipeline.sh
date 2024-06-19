@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 ./auto_datapipeline.py
+python3 .\auto_datapipeline.py
