@@ -11,7 +11,6 @@ def drop_columns(df, col_list):
     existing_cols = [col for col in col_list if col in df.columns]
     # Dropping the specified columns from the DataFrame
     df.drop(existing_cols, axis=1, inplace=True)
-
     
     return df
 
