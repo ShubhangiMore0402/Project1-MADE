@@ -107,7 +107,7 @@ if __name__ == '__main__':
             'delimiter' : ',',
             'target_table' : 'europe_data'
         },
-        'target_db_path' : '../data',        
+        'target_db_path' : '.\\data',        
         'target_db_name' : 'made-project_new'
     }
 
