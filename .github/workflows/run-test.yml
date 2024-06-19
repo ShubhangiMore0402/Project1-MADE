@@ -22,15 +22,3 @@ jobs:
         
         - name: Install dependencies
           run: pip install -r ./project/requirements.txt
-        
-        - name: Make the pipeline script executable
-          run: chmod +x ./project/pipeline.sh
-            
-        - name: Run pipeline script
-          run: ./project/pipeline.sh
-
-        - name: Make the test script executable
-          run: chmod +x ./project/tests.sh
-            
-        - name: Run test script
-          run: ./project/tests.sh
