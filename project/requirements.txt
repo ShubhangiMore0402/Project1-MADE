@@ -4,6 +4,7 @@ iniconfig==2.0.0
 numpy==1.24.2
 packaging==23.0
 pandas==1.5.3
+requests==2.32.2
 pluggy==1.0.0
 python-dateutil==2.8.2
 pytz==2022.7.1
