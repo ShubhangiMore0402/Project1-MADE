@@ -1,33 +1,39 @@
-name: Run Tests
+name: run-test
 
 on:
-    push:
-        branches:
-        - main
-        paths:
-        - project/**
+  push:
+    branches:
+      - main
 
 jobs:
-    tests:
-        runs-on: ubuntu-latest
+  test:
+    runs-on: ubuntu-latest
 
-        steps:
-        - name: Checkout repository
-          uses: actions/checkout@v3
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-        - name: Set up Python 3.11
-          uses: actions/setup-python@v4
-          with:
-            python-version: 3.11
-        
-        - name: Make the pipeline script executable
-          run: chmod +x ./project/pipeline.sh
-            
-        - name: Run pipeline script
-          run: ./project/pipeline.sh
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'  # Specify the Python version you are using
 
-        - name: Make the test script executable
-          run: chmod +x ./project/tests.sh
-            
-        - name: Run test script
-          run: ./project/tests.sh
+    - name: Install dependencies
+      run: |
+        python -m venv venv
+        source venv/bin/activate
+        pip install -r requirements.txt  # Adjust if using a different dependency manager
+
+    - name: Run pipeline
+      run: |
+        chmod +x pipeline.sh
+        ./pipeline.sh
+      env:
+        run-test: true
+
+    - name: Run tests
+      run: |
+        chmod +x tests.sh
+        ./tests.sh
+      env:
+        run-test: true
