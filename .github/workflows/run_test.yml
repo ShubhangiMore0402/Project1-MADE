@@ -1,0 +1,34 @@
+name: Run Tests
+
+on:
+    push:
+        branches:
+        - main
+        paths:
+        - project/**
+
+jobs:
+    tests:
+        runs-on: ubuntu-latest
+
+        steps:
+        - name: Checkout repository
+          uses: actions/checkout@v3
+
+        
+        - name: Set up Python 3.11
+          uses: actions/setup-python@v4
+          with:
+            python-version: 3.11
+        
+        - name: Make the script files executable
+          run: chmod +x ./project/pipeline.sh
+            
+        - name: Run Tests
+          run: ./project/pipeline.sh
+
+        - name: Make the script files executable
+          run: chmod +x ./project/tests.sh
+            
+        - name: Run Tests
+          run: ./project/tests.sh
