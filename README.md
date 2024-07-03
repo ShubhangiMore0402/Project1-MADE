@@ -75,7 +75,7 @@ The data pipeline involves several steps:
 4. **Error Handling**: Implementing checks to manage changing input data and errors during processing.
 5. **Data Loading**: Storing the processed data in a structured format for analysis.
 
-## Testing
+## Testing [here](https://github.com/ShubhangiMore0402/Project1-MADE/blob/main/project/automated_testing.py)
 To ensure the reliability and accuracy of the data pipeline, the following testing strategies were implemented:
 1. **Unit Tests**: Individual functions and components were tested to ensure they work as expected.
 2. **Integration Tests**: The entire data pipeline was tested end-to-end to verify that all steps work together seamlessly.
