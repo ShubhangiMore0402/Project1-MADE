@@ -49,3 +49,24 @@ Grading Exercise 1
 		Shape: 4 of 4
 		Types: 13 of 13
 ```
+# CO2 Emissions and Air Travel Emission Intensity Analysis
+
+This project analyzes CO2 emissions per GDP by region and air travel emission intensity in Europe. The analysis uses data from the Emissions Database for Global Atmospheric Research (EDGAR) and UDP - Air Travel Emission Intensity datasets.
+
+## Project Overview
+
+The goal of this project is to understand and compare the trends in CO2 emissions per GDP across different regions and air travel emission intensities in Europe. The analysis is performed using an automated data pipeline that processes, cleans, and transforms the data to generate meaningful insights.
+
+## Data Sources
+
+1. **EDGAR v4.3.2_FT_2016 (fossil CO2 and GHG time-series)**
+   - Publisher: Joint Research Centre
+   - URL: [EDGAR Dataset](https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/EDGAR/datasets/v432_FT2016/EDGARv432_FT2016_CO2_per_GDP_emissions_1970-2016.csv)
+
+2. **UDP - Air Travel Emission Intensity**
+   - Publisher: Joint Research Centre
+   - URL: [UDP Dataset](https://urban.jrc.ec.europa.eu/api/udp/v2/en/data/?databrick_id=739&nutslevel=0&ts=TOURISM&nutsversion=-1&mpx=1&nutslevel=9&format=csv)
+
+## License
+
+This project is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0). See the [LICENSE] file for details.
