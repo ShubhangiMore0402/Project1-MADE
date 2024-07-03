@@ -67,7 +67,7 @@ The goal of this project is to understand and compare the trends in CO2 emission
    - Publisher: Joint Research Centre
    - URL: [UDP Dataset](https://urban.jrc.ec.europa.eu/api/udp/v2/en/data/?databrick_id=739&nutslevel=0&ts=TOURISM&nutsversion=-1&mpx=1&nutslevel=9&format=csv)
 
-## Data Pipeline (https://github.com/ShubhangiMore0402/Project1-MADE/blob/main/project/auto_datapipeline.py)
+## Data Pipeline [here](https://github.com/ShubhangiMore0402/Project1-MADE/blob/main/project/auto_datapipeline.py)
 The data pipeline involves several steps:
 1. **Data Ingestion**: Collecting raw data from multiple sources.
 2. **Data Cleaning**: Removing duplicates, handling missing values, and normalizing data.
