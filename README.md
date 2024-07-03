@@ -72,7 +72,7 @@ The goal of this project is to understand and compare the trends in CO2 emission
 This project is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0). See the [LICENSE](LICENSE) file for details.
 
 ## How to Run the Project
-1. **Clone the Repository**: ``
+1. **Clone the Repository**: `https://github.com/ShubhangiMore0402/Project1-MADE.git`
 2. **Install Dependencies**: `pip install -r requirements.txt`
 3. **Run the Data Pipeline**: `python data_pipeline.py`
 
