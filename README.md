@@ -67,12 +67,47 @@ The goal of this project is to understand and compare the trends in CO2 emission
    - Publisher: Joint Research Centre
    - URL: [UDP Dataset](https://urban.jrc.ec.europa.eu/api/udp/v2/en/data/?databrick_id=739&nutslevel=0&ts=TOURISM&nutsversion=-1&mpx=1&nutslevel=9&format=csv)
 
-## License
+## Data Pipeline
+The data pipeline involves several steps:
+1. **Data Ingestion**: Collecting raw data from multiple sources.
+2. **Data Cleaning**: Removing duplicates, handling missing values, and normalizing data.
+3. **Data Transformation**: Aggregating and calculating CO2 emissions per GDP and air travel emission intensity.
+4. **Error Handling**: Implementing checks to manage changing input data and errors during processing.
+5. **Data Loading**: Storing the processed data in a structured format for analysis.
 
-This project is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0). See the [LICENSE](LICENSE) file for details.
+## Analysis
+### CO2 Emissions per GDP (2013-2016)
+- **Method**: Filtered out countries with values above 300, selected the top 15 countries by CO2 emissions per GDP.
+- **Results**: Identified leading countries with high CO2 emissions relative to their GDP.
+
+### Air Travel Emission Intensity Trends (2019-2022)
+- **Method**: Analyzed emission intensity trends for European regions by selecting top 15 regions, filtering out regions with values above 300.
+- **Results**: Observed trends and fluctuations in air travel emissions over four years.
+
+## Results and Visualizations
+### Figures
+1. **CO2 Emissions per GDP by Region (2015-2016)**: A line plot showing trends over time.
+2. **Air Travel Emission Intensity Trends in Europe (2019-2022)**: A line plot showing trends over time.
+
+## Testing
+To ensure the reliability and accuracy of the data pipeline, the following testing strategies were implemented:
+1. **Unit Tests**: Individual functions and components were tested to ensure they work as expected.
+2. **Integration Tests**: The entire data pipeline was tested end-to-end to verify that all steps work together seamlessly.
+3. **Validation Checks**: Various data validation checks were performed to ensure data quality and consistency.
+4. **Error Handling**: Robust error handling mechanisms were put in place to manage and log any issues that arise during data processing.
 
 ## How to Run the Project
 1. **Clone the Repository**: `https://github.com/ShubhangiMore0402/Project1-MADE.git`
 2. **Install Dependencies**: `pip install -r requirements.txt`
 3. **Run the Data Pipeline**: `python data_pipeline.py`
+4. **Run Tests**: `pytest tests/`
+
+## Conclusion
+The analysis reveals significant insights into CO2 emissions and air travel emission intensities, highlighting key regions and countries contributing to global emissions. These findings can inform policy decisions and environmental strategies.
+
+## License
+This project is licensed under the [CC BY 4.0 License](LICENSE).
+
+
+
 
