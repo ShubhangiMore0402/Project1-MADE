@@ -75,6 +75,13 @@ The data pipeline involves several steps:
 4. **Error Handling**: Implementing checks to manage changing input data and errors during processing.
 5. **Data Loading**: Storing the processed data in a structured format for analysis.
 
+## Testing
+To ensure the reliability and accuracy of the data pipeline, the following testing strategies were implemented:
+1. **Unit Tests**: Individual functions and components were tested to ensure they work as expected.
+2. **Integration Tests**: The entire data pipeline was tested end-to-end to verify that all steps work together seamlessly.
+3. **Validation Checks**: Various data validation checks were performed to ensure data quality and consistency.
+4. **Error Handling**: Robust error handling mechanisms were put in place to manage and log any issues that arise during data processing.
+
 ## Analysis
 ### CO2 Emissions per GDP (2013-2016)
 - **Method**: Filtered out countries with values above 300, selected the top 15 countries by CO2 emissions per GDP.
@@ -89,21 +96,14 @@ The data pipeline involves several steps:
 1. **CO2 Emissions per GDP by Region (2015-2016)**: A line plot showing trends over time.
 2. **Air Travel Emission Intensity Trends in Europe (2019-2022)**: A line plot showing trends over time.
 
-## Testing
-To ensure the reliability and accuracy of the data pipeline, the following testing strategies were implemented:
-1. **Unit Tests**: Individual functions and components were tested to ensure they work as expected.
-2. **Integration Tests**: The entire data pipeline was tested end-to-end to verify that all steps work together seamlessly.
-3. **Validation Checks**: Various data validation checks were performed to ensure data quality and consistency.
-4. **Error Handling**: Robust error handling mechanisms were put in place to manage and log any issues that arise during data processing.
+## Conclusion
+The analysis reveals significant insights into CO2 emissions and air travel emission intensities, highlighting key regions and countries contributing to global emissions. These findings can inform policy decisions and environmental strategies.
 
 ## How to Run the Project
 1. **Clone the Repository**: `https://github.com/ShubhangiMore0402/Project1-MADE.git`
 2. **Install Dependencies**: `pip install -r requirements.txt`
 3. **Run the Data Pipeline**: `python data_pipeline.py`
 4. **Run Tests**: `pytest tests/`
-
-## Conclusion
-The analysis reveals significant insights into CO2 emissions and air travel emission intensities, highlighting key regions and countries contributing to global emissions. These findings can inform policy decisions and environmental strategies.
 
 ## License
 This project is licensed under the [CC BY 4.0 License](LICENSE).
