@@ -93,7 +93,7 @@ To ensure the reliability and accuracy of the data pipeline, the following testi
 
 ## Results and Visualizations
 ### Figures
-1. **CO2 Emissions per GDP by Region (2015-2016)**: A line plot showing trends over time.
+1. **CO2 Emissions per GDP by Region (2013-2016)**: A line plot showing trends over time.
 2. **Air Travel Emission Intensity Trends in Europe (2019-2022)**: A line plot showing trends over time.
 
 ## Conclusion
